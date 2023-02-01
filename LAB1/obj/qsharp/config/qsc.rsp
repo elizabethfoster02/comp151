@@ -1,10 +1,10 @@
 --proj
-    "/home/ubuntu/elizabeth-foster/LAB1/project"
+    "/home/ubuntu/elizabeth-foster/comp151/LAB1/project"
 --input
-    "/home/ubuntu/elizabeth-foster/LAB1/Lab1.qs"
-    "/home/ubuntu/elizabeth-foster/LAB1/Lab1Tests.qs"
+    "/home/ubuntu/elizabeth-foster/comp151/LAB1/Lab1.qs"
+    "/home/ubuntu/elizabeth-foster/comp151/LAB1/Lab1Tests.qs"
 --output
-    "/home/ubuntu/elizabeth-foster/LAB1/obj/qsharp/"
+    "/home/ubuntu/elizabeth-foster/comp151/LAB1/obj/qsharp/"
 --references
     "/home/ubuntu/.nuget/packages/microsoft.bcl.asyncinterfaces/1.1.0/ref/netstandard2.1/Microsoft.Bcl.AsyncInterfaces.dll"
     "/home/ubuntu/.nuget/packages/microsoft.quantum.compiler/0.25.218240/lib/netstandard2.1/Microsoft.Quantum.BondSchemas.dll"
@@ -39,7 +39,7 @@
 --skip-targeting
 --skip-monomorphization
 --package-load-fallback-folders
-    "/home/ubuntu/elizabeth-foster/LAB1/bin/Debug/net6.0/"
+    "/home/ubuntu/elizabeth-foster/comp151/LAB1/bin/Debug/net6.0/"
 --assembly-properties
     DocsPackageId:project
     ExecutionTarget:Any
