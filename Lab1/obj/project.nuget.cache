@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5FWV6J4bLi+hQCuUFJaqS8ntVc79/1d0vffD5LiuiE+bHCBMthn4vFS9ZH8r/2zXAObLRhLpzNttIsm76szNQA==",
+  "dgSpecHash": "YuhdigKVyN7a2hDNmW+SyF9iwX5C6SS1A3aS/AdgmScslQcpVmAvd99MGvLNJBujovS/ISRGVJg43rxIViF6pQ==",
   "success": true,
-  "projectFilePath": "/home/ubuntu/elizabeth-foster/comp151/LAB1/project.csproj",
+  "projectFilePath": "/home/ubuntu/elizabeth-foster/comp151/Lab1/project.csproj",
   "expectedPackageFiles": [
     "/home/ubuntu/.nuget/packages/bond.core.csharp/9.0.3/bond.core.csharp.9.0.3.nupkg.sha512",
     "/home/ubuntu/.nuget/packages/bond.csharp/9.0.3/bond.csharp.9.0.3.nupkg.sha512",

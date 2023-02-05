@@ -7370,11 +7370,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/ubuntu/elizabeth-foster/comp151/LAB1/project.csproj",
+      "projectUniqueName": "/home/ubuntu/elizabeth-foster/comp151/Lab1/project.csproj",
       "projectName": "project",
-      "projectPath": "/home/ubuntu/elizabeth-foster/comp151/LAB1/project.csproj",
+      "projectPath": "/home/ubuntu/elizabeth-foster/comp151/Lab1/project.csproj",
       "packagesPath": "/home/ubuntu/.nuget/packages/",
-      "outputPath": "/home/ubuntu/elizabeth-foster/comp151/LAB1/obj/",
+      "outputPath": "/home/ubuntu/elizabeth-foster/comp151/Lab1/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/ubuntu/.nuget/NuGet/NuGet.Config"
