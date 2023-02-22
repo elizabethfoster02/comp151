@@ -174,20 +174,11 @@ namespace Lab3 {
     /// # Remarks
     /// You will need to use the H, X, Z, and CNOT gates to achieve this.
     operation Exercise5 (register : Qubit[]) : Unit {
-        // X(register[1]);
-        // H(register[2]);
-        // X(register[3]);
-        // CNOT(register[2], register[1]);
-        // X(register[3]);
-        // Message("Take a step");
-        // DumpRegister((), register);
-
         X(register[1]);
         H(register[2]);
         CNOT(register[2], register[3]);
         X(register[3]);
         Z(register[2]);
-
     }
 
 
@@ -305,8 +296,13 @@ namespace Lab3 {
     /// ## register
     /// A two-qubit register in the |00> state.
     operation Challenge1 (register : Qubit[]) : Unit {
-        // TODO
-        fail "Not implemented.";
+        let desiredProbability = 2.0 / 3.0;
+        let angle = 2.0 * ArcCos(Sqrt(desiredProbability));
+        Ry(angle, register[0]);
+
+        X(register[0]);
+        Controlled H([register[0]], register[1]);
+        X(register[0]);
     }
 
 

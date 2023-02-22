@@ -37,6 +37,8 @@ using Microsoft.Quantum.Simulation.Core;
 [assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Lab3\",\"Name\":\"Exercise7Test\"},\"Attributes\":[],\"SourceFile\":\"/home/ubuntu/elizabeth-foster/comp151/Lab3/Lab3Tests.qs\",\"Position\":{\"Item1\":150,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":24}},\"Documentation\":[]}")]
 [assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Lab3\",\"Name\":\"Exercise8Test\"},\"Attributes\":[{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Diagnostics\",\"Name\":\"Test\",\"Range\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":6}}]}}]},\"TypeIdRange\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":6}}]},\"Argument\":{\"Item1\":{\"Case\":\"StringLiteral\",\"Fields\":[\"QuantumSimulator\",[]]},\"Item2\":[],\"Item3\":{\"Case\":\"String\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":7},\"Item2\":{\"Line\":1,\"Column\":25}}]}},\"Offset\":{\"Item1\":164,\"Item2\":4},\"Comments\":{\"OpeningComments\":[],\"ClosingComments\":[]}},{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Targeting\",\"Name\":\"RequiresCapability\",\"Range\":{\"Case\":\"Null\"}}]},\"TypeIdRange\":{\"Case\":\"Null\"},\"Argument\":{\"Item1\":{\"Case\":\"ValueTuple\",\"Fields\":[[{\"Item1\":{\"Case\":\"StringLiteral\",\"Fields\":[\"Opaque\",[]]},\"Item2\":[],\"Item3\":{\"Case\":\"String\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}},{\"Item1\":{\"Case\":\"StringLiteral\",\"Fields\":[\"Full\",[]]},\"Item2\":[],\"Item3\":{\"Case\":\"String\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}},{\"Item1\":{\"Case\":\"StringLiteral\",\"Fields\":[\"Inferred automatically by the compiler.\",[]]},\"Item2\":[],\"Item3\":{\"Case\":\"String\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}}]]},\"Item2\":[],\"Item3\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"String\"},{\"Case\":\"String\"},{\"Case\":\"String\"}]]},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}},\"Offset\":{\"Item1\":0,\"Item2\":0},\"Comments\":{\"OpeningComments\":[],\"ClosingComments\":[]}}],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"/home/ubuntu/elizabeth-foster/comp151/Lab3/Lab3Tests.qs\",\"Position\":{\"Item1\":165,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":24}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
 [assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Lab3\",\"Name\":\"Exercise8Test\"},\"Attributes\":[],\"SourceFile\":\"/home/ubuntu/elizabeth-foster/comp151/Lab3/Lab3Tests.qs\",\"Position\":{\"Item1\":165,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":24}},\"Documentation\":[]}")]
+[assembly: CallableDeclaration("{\"Kind\":{\"Case\":\"Operation\"},\"QualifiedName\":{\"Namespace\":\"Lab3\",\"Name\":\"Challenge1Test\"},\"Attributes\":[{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Diagnostics\",\"Name\":\"Test\",\"Range\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":6}}]}}]},\"TypeIdRange\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":2},\"Item2\":{\"Line\":1,\"Column\":6}}]},\"Argument\":{\"Item1\":{\"Case\":\"StringLiteral\",\"Fields\":[\"QuantumSimulator\",[]]},\"Item2\":[],\"Item3\":{\"Case\":\"String\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Value\",\"Fields\":[{\"Item1\":{\"Line\":1,\"Column\":7},\"Item2\":{\"Line\":1,\"Column\":25}}]}},\"Offset\":{\"Item1\":185,\"Item2\":4},\"Comments\":{\"OpeningComments\":[],\"ClosingComments\":[]}},{\"TypeId\":{\"Case\":\"Value\",\"Fields\":[{\"Namespace\":\"Microsoft.Quantum.Targeting\",\"Name\":\"RequiresCapability\",\"Range\":{\"Case\":\"Null\"}}]},\"TypeIdRange\":{\"Case\":\"Null\"},\"Argument\":{\"Item1\":{\"Case\":\"ValueTuple\",\"Fields\":[[{\"Item1\":{\"Case\":\"StringLiteral\",\"Fields\":[\"Opaque\",[]]},\"Item2\":[],\"Item3\":{\"Case\":\"String\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}},{\"Item1\":{\"Case\":\"StringLiteral\",\"Fields\":[\"Full\",[]]},\"Item2\":[],\"Item3\":{\"Case\":\"String\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}},{\"Item1\":{\"Case\":\"StringLiteral\",\"Fields\":[\"Inferred automatically by the compiler.\",[]]},\"Item2\":[],\"Item3\":{\"Case\":\"String\"},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}}]]},\"Item2\":[],\"Item3\":{\"Case\":\"TupleType\",\"Fields\":[[{\"Case\":\"String\"},{\"Case\":\"String\"},{\"Case\":\"String\"}]]},\"Item4\":{\"IsMutable\":false,\"HasLocalQuantumDependency\":false},\"Item5\":{\"Case\":\"Null\"}},\"Offset\":{\"Item1\":0,\"Item2\":0},\"Comments\":{\"OpeningComments\":[],\"ClosingComments\":[]}}],\"Modifiers\":{\"Access\":{\"Case\":\"DefaultAccess\"}},\"SourceFile\":\"/home/ubuntu/elizabeth-foster/comp151/Lab3/Lab3Tests.qs\",\"Position\":{\"Item1\":186,\"Item2\":4},\"SymbolRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":25}},\"ArgumentTuple\":{\"Case\":\"QsTuple\",\"Fields\":[[]]},\"Signature\":{\"TypeParameters\":[],\"ArgumentType\":{\"Case\":\"UnitType\"},\"ReturnType\":{\"Case\":\"UnitType\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}}},\"Documentation\":[]}")]
+[assembly: SpecializationDeclaration("{\"Kind\":{\"Case\":\"QsBody\"},\"TypeArguments\":{\"Case\":\"Null\"},\"Information\":{\"Characteristics\":{\"Case\":\"EmptySet\"},\"InferredInformation\":{\"IsSelfAdjoint\":false,\"IsIntrinsic\":false}},\"Parent\":{\"Namespace\":\"Lab3\",\"Name\":\"Challenge1Test\"},\"Attributes\":[],\"SourceFile\":\"/home/ubuntu/elizabeth-foster/comp151/Lab3/Lab3Tests.qs\",\"Position\":{\"Item1\":186,\"Item2\":4},\"HeaderRange\":{\"Item1\":{\"Line\":1,\"Column\":11},\"Item2\":{\"Line\":1,\"Column\":25}},\"Documentation\":[]}")]
 #line hidden
 namespace Lab3
 {
@@ -1304,7 +1306,7 @@ namespace Lab3
         }
     }
 
-    [SourceLocation("/home/ubuntu/elizabeth-foster/comp151/Lab3/Lab3Tests.qs", OperationFunctor.Body, 166, -1)]
+    [SourceLocation("/home/ubuntu/elizabeth-foster/comp151/Lab3/Lab3Tests.qs", OperationFunctor.Body, 166, 187)]
     public partial class Exercise8Test : Operation<QVoid, QVoid>, ICallable
     {
         public Exercise8Test(IOperationFactory m) : base(m)
@@ -1507,6 +1509,182 @@ namespace Lab3
         public static System.Threading.Tasks.Task<QVoid> Run(IOperationFactory __m__)
         {
             return __m__.Run<Exercise8Test, QVoid, QVoid>(QVoid.Instance);
+        }
+    }
+
+    [SourceLocation("/home/ubuntu/elizabeth-foster/comp151/Lab3/Lab3Tests.qs", OperationFunctor.Body, 187, -1)]
+    public partial class Challenge1Test : Operation<QVoid, QVoid>, ICallable
+    {
+        public Challenge1Test(IOperationFactory m) : base(m)
+        {
+        }
+
+        public class QuantumSimulator
+        {
+            public QuantumSimulator(Xunit.Abstractions.ITestOutputHelper Output)
+            {
+                this.Output = Output;
+            }
+
+            internal Xunit.Abstractions.ITestOutputHelper Output
+            {
+                get;
+            }
+
+            [Xunit.Fact()]
+            [Xunit.Trait("Target", "QuantumSimulator")]
+            [Xunit.Trait("Name", "Challenge1Test")]
+            public void Challenge1Test()
+#line 187 "/home/ubuntu/elizabeth-foster/comp151/Lab3/Lab3Tests.qs"
+            {
+                var sim = new Microsoft.Quantum.Simulation.Simulators.QuantumSimulator();
+                if (sim is Microsoft.Quantum.Simulation.Common.SimulatorBase baseSim && this.Output != null)
+                {
+                    baseSim.OnLog += this.Output.WriteLine;
+                }
+
+                try
+                {
+                    sim.Execute<Challenge1Test, QVoid, QVoid>(QVoid.Instance);
+                }
+                catch
+                {
+#line 187 "/home/ubuntu/elizabeth-foster/comp151/Lab3/Lab3Tests.qs"
+                    Xunit.Assert.True(false, "Q# Test failed. For details see the Standard output below.");
+                }
+                finally
+                {
+                    if (sim is IDisposable disposeSim)
+                    {
+                        disposeSim.Dispose();
+                    }
+                }
+            }
+        }
+
+        String ICallable.Name => "Challenge1Test";
+        String ICallable.FullName => "Lab3.Challenge1Test";
+        protected Allocate Allocate__
+        {
+            get;
+            set;
+        }
+
+        protected Release Release__
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<IQArray<Qubit>, QVoid> Challenge1__
+        {
+            get;
+            set;
+        }
+
+        protected IUnitary<Qubit> Microsoft__Quantum__Intrinsic__X
+        {
+            get;
+            set;
+        }
+
+        protected IUnitary<Qubit> Microsoft__Quantum__Intrinsic__H
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<Double, Double> Microsoft__Quantum__Math__ArcCos
+        {
+            get;
+            set;
+        }
+
+        protected ICallable<Double, Double> Microsoft__Quantum__Math__Sqrt
+        {
+            get;
+            set;
+        }
+
+        protected IUnitary<(Double,Qubit)> Microsoft__Quantum__Intrinsic__Ry
+        {
+            get;
+            set;
+        }
+
+        protected IUnitary<IQArray<Qubit>> Microsoft__Quantum__Diagnostics__AssertAllZero
+        {
+            get;
+            set;
+        }
+
+        public override Func<QVoid, QVoid> __Body__ => (__in__) =>
+        {
+#line hidden
+            {
+#line 188 "/home/ubuntu/elizabeth-foster/comp151/Lab3/Lab3Tests.qs"
+                var qubits = Allocate__.Apply(2L);
+#line hidden
+                bool __arg1__ = true;
+                try
+                {
+#line 190 "/home/ubuntu/elizabeth-foster/comp151/Lab3/Lab3Tests.qs"
+                    Challenge1__.Apply(qubits);
+#line 192 "/home/ubuntu/elizabeth-foster/comp151/Lab3/Lab3Tests.qs"
+                    Microsoft__Quantum__Intrinsic__X.Apply(qubits[0L]);
+#line 193 "/home/ubuntu/elizabeth-foster/comp151/Lab3/Lab3Tests.qs"
+                    Microsoft__Quantum__Intrinsic__H.Controlled.Apply((new QArray<Qubit>(qubits[0L]), qubits[1L]));
+#line 194 "/home/ubuntu/elizabeth-foster/comp151/Lab3/Lab3Tests.qs"
+                    Microsoft__Quantum__Intrinsic__X.Apply(qubits[0L]);
+#line 196 "/home/ubuntu/elizabeth-foster/comp151/Lab3/Lab3Tests.qs"
+                    var desiredProbability = (2D / 3D);
+#line 197 "/home/ubuntu/elizabeth-foster/comp151/Lab3/Lab3Tests.qs"
+                    var angle = (2D * Microsoft__Quantum__Math__ArcCos.Apply(Microsoft__Quantum__Math__Sqrt.Apply(desiredProbability)));
+#line 198 "/home/ubuntu/elizabeth-foster/comp151/Lab3/Lab3Tests.qs"
+                    Microsoft__Quantum__Intrinsic__Ry.Apply((-(angle), qubits[0L]));
+#line 200 "/home/ubuntu/elizabeth-foster/comp151/Lab3/Lab3Tests.qs"
+                    Microsoft__Quantum__Diagnostics__AssertAllZero.Apply(qubits);
+                }
+#line hidden
+                catch
+                {
+                    __arg1__ = false;
+                    throw;
+                }
+#line hidden
+                finally
+                {
+                    if (__arg1__)
+                    {
+#line hidden
+                        Release__.Apply(qubits);
+                    }
+                }
+            }
+
+#line hidden
+            return QVoid.Instance;
+        }
+
+        ;
+        public override void __Init__()
+        {
+            this.Allocate__ = this.__Factory__.Get<Allocate>(typeof(global::Microsoft.Quantum.Intrinsic.Allocate));
+            this.Release__ = this.__Factory__.Get<Release>(typeof(global::Microsoft.Quantum.Intrinsic.Release));
+            this.Challenge1__ = this.__Factory__.Get<ICallable<IQArray<Qubit>, QVoid>>(typeof(Challenge1));
+            this.Microsoft__Quantum__Intrinsic__X = this.__Factory__.Get<IUnitary<Qubit>>(typeof(global::Microsoft.Quantum.Intrinsic.X));
+            this.Microsoft__Quantum__Intrinsic__H = this.__Factory__.Get<IUnitary<Qubit>>(typeof(global::Microsoft.Quantum.Intrinsic.H));
+            this.Microsoft__Quantum__Math__ArcCos = this.__Factory__.Get<ICallable<Double, Double>>(typeof(global::Microsoft.Quantum.Math.ArcCos));
+            this.Microsoft__Quantum__Math__Sqrt = this.__Factory__.Get<ICallable<Double, Double>>(typeof(global::Microsoft.Quantum.Math.Sqrt));
+            this.Microsoft__Quantum__Intrinsic__Ry = this.__Factory__.Get<IUnitary<(Double,Qubit)>>(typeof(global::Microsoft.Quantum.Intrinsic.Ry));
+            this.Microsoft__Quantum__Diagnostics__AssertAllZero = this.__Factory__.Get<IUnitary<IQArray<Qubit>>>(typeof(global::Microsoft.Quantum.Diagnostics.AssertAllZero));
+        }
+
+        public override IApplyData __DataIn__(QVoid data) => data;
+        public override IApplyData __DataOut__(QVoid data) => data;
+        public static System.Threading.Tasks.Task<QVoid> Run(IOperationFactory __m__)
+        {
+            return __m__.Run<Challenge1Test, QVoid, QVoid>(QVoid.Instance);
         }
     }
 }

@@ -183,42 +183,42 @@ namespace Lab3 {
     }
 
 
-    // @Test("QuantumSimulator")
-    // operation Challenge1Test () : Unit {
-    //     use qubits = Qubit[2];
+    @Test("QuantumSimulator")
+    operation Challenge1Test () : Unit {
+        use qubits = Qubit[2];
 
-    //     Challenge1(qubits);
+        Challenge1(qubits);
 
-    //     X(qubits[0]);
-    //     Controlled H([qubits[0]], qubits[1]);
-    //     X(qubits[0]);
+        X(qubits[0]);
+        Controlled H([qubits[0]], qubits[1]);
+        X(qubits[0]);
 
-    //     let desiredProbability = 2.0 / 3.0;
-    //     let angle = 2.0 * ArcCos(Sqrt(desiredProbability));
-    //     Ry(-angle, qubits[0]);
+        let desiredProbability = 2.0 / 3.0;
+        let angle = 2.0 * ArcCos(Sqrt(desiredProbability));
+        Ry(-angle, qubits[0]);
 
-    //     AssertAllZero(qubits);
-    // }
+        AssertAllZero(qubits);
+    }
 
 
-    // @Test("QuantumSimulator")
-    // operation Challenge2Test () : Unit {
-    //     use qubits = Qubit[3];
+    @Test("QuantumSimulator")
+    operation Challenge2Test () : Unit {
+        use qubits = Qubit[3];
 
-    //     Challenge2(qubits);
+        Challenge2(qubits);
 
-    //     X(qubits[0]);
-    //     CNOT(qubits[0], qubits[2]);
-    //     CNOT(qubits[1], qubits[2]);
-    //     Controlled H([qubits[0]], qubits[1]);
-    //     X(qubits[0]);
+        X(qubits[0]);
+        CNOT(qubits[0], qubits[2]);
+        CNOT(qubits[1], qubits[2]);
+        Controlled H([qubits[0]], qubits[1]);
+        X(qubits[0]);
 
-    //     let desiredProbability = 2.0 / 3.0;
-    //     let angle = 2.0 * ArcCos(Sqrt(desiredProbability));
-    //     Ry(-angle, qubits[0]);
+        let desiredProbability = 2.0 / 3.0;
+        let angle = 2.0 * ArcCos(Sqrt(desiredProbability));
+        Ry(-angle, qubits[0]);
 
-    //     AssertAllZero(qubits);
-    // }
+        AssertAllZero(qubits);
+    }
 
 
     // @Test("QuantumSimulator")
