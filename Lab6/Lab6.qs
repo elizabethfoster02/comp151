@@ -156,8 +156,30 @@ namespace Lab6 {
         op : ((Qubit[], Qubit[]) => Unit),
         inputSize : Int
     ) : Bool[] {
-        // TODO
-        fail "Not implemented.";
+        
+        use (registerInput) = (Qubit[inputSize]);
+        use (registerOutput) = (Qubit[inputSize]);
+
+        ApplyToEach(H, registerInput);
+        op(registerInput, registerOutput);
+        ApplyToEach(H, registerInput);
+
+        mutable output = [];
+        for i in 0 .. inputSize - 1 {
+            let result = M(registerInput[i]);
+            set output += ResultArrayAsBoolArray([result]);
+        }
+
+        for i in 0 .. inputSize - 1 {
+            if M(registerInput[i]) == One {
+                X(registerInput[i]);
+            }
+            if M(registerOutput[i]) == One {
+                X(registerOutput[i]);
+            }
+        }
+    
+        return output;
     }
 
 
